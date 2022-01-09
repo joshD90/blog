@@ -1,0 +1,17 @@
+<%- include('header') -%>
+<div class="contentsDiv">
+  <h1>This is My Title</h1>
+  <p>This is my Paragraph. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo voluptatum blanditiis, cupiditate, odio quia fugiat eos vitae repellat sed similique quaerat temporibus ad repellendus dolorum, velit tenetur magnam quos
+    asperiores!</p>
+
+  <% for (i = 0; i < blogTitle.length; i++) { %>
+  <div class="postDiv">
+    <h2><%= blogTitle[i] %></h2>
+    <p><%= blogBody[i] %></p>
+  </div>
+
+  <% } %>
+</div>
+
+
+<%- include('footer') -%>

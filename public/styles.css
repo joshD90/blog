@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+}
+
+.headerDiv {
+  background-color: #92A9BD;
+  height: 50px;
+  width: 100%;
+}
+
+.navLeft {
+  float: left;
+  margin-left: 30px;
+}
+
+.navRight {
+  float: right;
+  margin-right: 30px;
+}
+
+.headerItem {
+  color: #2B2B2B;
+  display: inline-block;
+  font-family: Arial, sans-serif;
+  font-size: 1rem;
+  margin-top: 10px;
+  margin-left: 5px;
+  text-decoration: none;
+}
+
+.headerItem:hover {
+  color: white;
+}
+
+.contentsDiv {
+  margin: 30px;
+}
+
+footer {
+  background-color: #92A9BD;
+  bottom: 0;
+  color: white;
+  left: 0;
+  position: fixed;
+  text-align: center;
+  width: 100%;
+}
